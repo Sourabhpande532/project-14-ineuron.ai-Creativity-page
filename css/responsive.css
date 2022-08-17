@@ -1,15 +1,16 @@
 @media screen and (max-width: 700px) {
-    /* html,
+    html,
     body {
       width: 100%;
       height: 100%;
-      margin: 0;
-      left: 0;
+      position: absolute;
+      overflow-y: hidden;
+      position: absolute;
       right: 0;
-      position: relative;
-    } */
+      
+    }
     .container{
-      max-width: 50vw;
+      max-width: 77rem;
       margin: 0 auto;
       position: relative;
     }
@@ -43,20 +44,20 @@
       margin-bottom: 0.5rem;
     }
     .whole_content .heading_content div {
-      margin-left: 2.8rem;
+      margin-left: 4.9rem;
       margin-top: -1.3rem;
       line-height: 1.5;
     }
   
     .whole_content .heading_content p {
-      padding-left: 1rem;
+      padding-left: 1.9rem;
       font-size: 1rem;
     }
     .whole_content .heading_content .btn button {
       padding: 0.6rem 0.5rem;
       font-size: 1.1rem;
       position: relative;
-      right: 5.1rem;
+      right: 4rem;
     }
     .whole_content .heading_content div h1::after {
       content: ".";
@@ -65,7 +66,7 @@
   
     .whole_content .social-icons {
       gap: 1.5rem;
-      left: 0.7rem;
+      left: 1.7rem;
     }
     .whole_content .social-icons img {
       width: 0.7rem;
