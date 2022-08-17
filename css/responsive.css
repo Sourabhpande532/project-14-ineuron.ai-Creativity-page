@@ -1,0 +1,98 @@
+@media screen and (max-width: 700px) {
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      left: 0;
+      right: 0;
+      position: relative;
+    }
+    .container{
+      max-width: 50rem;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .container .navbar {
+      display: flex;
+      justify-content: space-between;
+      width: 70vw;
+      overflow-x: auto;
+    }
+    .container nav .nav_list {
+      margin-top: 0.8rem;
+    }
+    .navbar .nav_list .hori_line {
+      display: none;
+    }
+    figure {
+      display: none;
+    }
+  
+    .heading_content {
+      left: 0;
+      top: 20px;
+    }
+    .heading_content h1 {
+      font-size: 3.1rem;
+    }
+    .whole_content .heading_content > h1::after {
+      width: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .whole_content .heading_content div {
+      margin-left: 2.8rem;
+      margin-top: -1.3rem;
+      line-height: 1.5;
+    }
+  
+    .whole_content .heading_content p {
+      padding-left: 1rem;
+      font-size: 1rem;
+    }
+    .whole_content .heading_content .btn button {
+      padding: 0.6rem 0.5rem;
+      font-size: 1.1rem;
+      position: relative;
+      right: 5.1rem;
+    }
+    .whole_content .heading_content div h1::after {
+      content: ".";
+      display: none;
+    }
+  
+    .whole_content .social-icons {
+      gap: 1.5rem;
+      left: 0.7rem;
+    }
+    .whole_content .social-icons img {
+      width: 0.7rem;
+    }
+    .whole_content .drawer_line {
+      position: relative;
+      right: 12.5rem;
+    }
+    .whole_content .quote .dance_img img {
+      width: 8rem;
+    }
+    .whole_content .quote {
+      left: 9.5rem;
+      top: -11rem;
+      position: relative;
+    }
+    .whole_content .quote .arrow {
+      display: none;
+    }
+    .whole_content .drawer_line ul li:not(:last-child) {
+      padding-bottom: 1.3rem;
+      font-size: small;
+    }
+    .whole_content .quote p {
+      font-size: 0.9rem;
+      margin-bottom: 1.3rem;
+      margin-top: 10px;
+    }
+  }
+  
+  /*  */
