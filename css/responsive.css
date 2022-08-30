@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 720px) {
     html,
     body {
       width: 100%;
@@ -14,7 +14,6 @@
       margin: 0 auto;
       position: relative;
     }
-
     .container .navbar {
       display: flex;
       justify-content: space-between;
@@ -30,7 +29,6 @@
     figure {
       display: none;
     }
-  
     .heading_content {
       left: 1vw;
       top: 20vw;
@@ -44,7 +42,7 @@
       margin-bottom: 0.5rem;
     }
     .whole_content .heading_content div {
-      margin-left: 4.9rem;
+      margin-left: 5.2rem;
       margin-top: -1.3rem;
       line-height: 1.5;
     }
@@ -58,6 +56,7 @@
       font-size: 1.1rem;
       position: relative;
       right: 4rem;
+      width: 200px;
     }
     .whole_content .heading_content div h1::after {
       content: ".";
@@ -65,15 +64,15 @@
     }
   
     .whole_content .social-icons {
-      gap: 1.5rem;
-      left: 1.7rem;
+      gap: 1.8rem;
+      left: 4.2rem;
     }
     .whole_content .social-icons img {
-      width: 0.7rem;
+      width: 0.9rem;
     }
     .whole_content .drawer_line {
       position: relative;
-      right: 12.5rem;
+      right: 12rem;
     }
     .whole_content .quote .dance_img img {
       width: 8rem;

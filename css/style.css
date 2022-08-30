@@ -1,3 +1,5 @@
+/** @format */
+
 * {
   margin: 0;
   padding: 0;
@@ -157,11 +159,11 @@ figure img {
   flex-direction: column;
   justify-content: center;
   position: relative;
+
 }
 .drawer_line ul li {
   list-style-type: none;
   font-size: 1rem;
-  list-style-type: none;
   color: #868686;
   display: flex;
   align-items: center;
@@ -190,8 +192,8 @@ figure img {
 
 .drawer_line .straght-line {
   background-color: #868686;
-  height: 30rem;
-  width: 1.55px;
+  height: 26rem;
+  width: 1.56px;
   position: absolute;
   left: 7px;
   top: 16px;
